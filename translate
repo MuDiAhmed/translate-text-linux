@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+notify-send -i info "$(xsel -o)" "$(curl -d "q=$(xsel -o | sed "s/[\"'<>]//g")" https://translate.googleapis.com/translate_a/single\?client\=gtx\&sl\=en\&tl\=ar\&dt\=t | sed "s/\[\{3\}\"\([^,]*\)\".*[\n]*/\1/g" | awk -F '"' 'NR==1{print $1}')"
