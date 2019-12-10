@@ -3,6 +3,7 @@
 **Highlight, translate, show!**
 You always need to translate a text on the fly, this script lets you translate the highlighted text and shows a notification with the original/translated text.
 
+**Note:** The official Google Translate API is not available for free, so this script is using translate.googleapis.com API that is internally used by the Google Translate extension for Chrome and requires no authentication.
 
 ## Requirements
 
