@@ -22,7 +22,11 @@ Just run `sudo apt-get install xsel curl sed mawk`
 
 **Note:** don't run as sudo, but there is an internal command that require sudo, so you will be asked for it
 
-
+## Usage:
+Now you will find that there is a keyboard shortcut has been created "Super + t".
+1. Highlight any word on the screen on any window.
+2. Click "Super + t".
+3. A notification pop-up with the translation will appear
 
 
 
